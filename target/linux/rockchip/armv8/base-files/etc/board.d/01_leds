@@ -12,6 +12,11 @@ cyber,cyber3588-aib)
 	ucidef_set_led_netdev "wan" "WAN" "blue:status" "eth0"
 	ucidef_set_led_netdev "lan" "LAN" "green:status" "eth1"
 	;;
+panther,x2)
+	ucidef_set_led_default "power" "POWER" "led-pwr" "1"
+	ucidef_set_led_heartbeat "status" "STATUS" "led-status"
+	ucidef_set_led_netdev "eth" "ETH" "led-eth" "eth0"
+	;;
 radxa,rock-5t)
 	ucidef_set_led_heartbeat "status" "Status LED" "blue:status"
 	;;

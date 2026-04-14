@@ -14,6 +14,7 @@ rockchip_setup_interfaces()
 	friendlyarm,nanopi-r2c|\
 	friendlyarm,nanopi-r2c-plus|\
 	friendlyarm,nanopi-r2s|\
+	panther,x2|\
 	friendlyarm,nanopi-r3s|\
 	friendlyarm,nanopi-r4s|\
 	friendlyarm,nanopi-r4se|\
